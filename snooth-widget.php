@@ -70,9 +70,8 @@ class Snooth_Widget extends WP_Widget {
 		if ( $title )
 			echo $before_title . $title . $after_title;
 		?>
-		<!-- Start Snooth Widget -->
-
-	    <script language='javascript'>
+		<!-- Start Snooth Widget (based on Snooth Widget at http://www.snooth.com/account/blog-widget/ -->
+		<script language='javascript'>
 		<!--
 			var snooth_userID = <?php echo $userID; ?>;
 			var snooth_hashPath = '<?php echo $hashPath; ?>';
